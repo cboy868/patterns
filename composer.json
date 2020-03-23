@@ -1,0 +1,16 @@
+{
+    "name": "root/patterns",
+    "authors": [
+        {
+            "name": "wansq",
+            "email": "cboy868@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        },
+        "files":["src/helpers.php"]
+    }
+}
