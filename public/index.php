@@ -5,9 +5,11 @@ require __DIR__ . '/../vendor/autoload.php';
 
 $patterns = [
     //策略
-    "strategy" => new \src\Controller\StrategyController(),
-    //观察者
-    "observer" => new \src\Controller\ObserverController()
+    // "strategy" => new \src\Controller\StrategyController(),
+    // //观察者
+    // "observer" => new \src\Controller\ObserverController(),
+    //装饰者
+    "decorator" => new \src\Controller\DecoratorController()
 ];
 //调用类中的方法
 
